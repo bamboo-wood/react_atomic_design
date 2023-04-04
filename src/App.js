@@ -1,7 +1,12 @@
+import { UserProvider } from "./providers/UserProvider";
 import { Router } from "./router/Router";
 
 function App() {
-  return <Router />;
+  return (
+    <UserProvider>
+      <Router />
+    </UserProvider>
+  );
 }
 
 export default App;
