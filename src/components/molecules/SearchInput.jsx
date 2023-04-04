@@ -4,6 +4,7 @@ import { PrimaryButton } from "../atoms/button/PrimaryButton";
 import { Input } from "../atoms/input/Input";
 
 export const SearchInput = () => {
+  console.log("SearchInput");
   return (
     <div>
       <SContainer>
