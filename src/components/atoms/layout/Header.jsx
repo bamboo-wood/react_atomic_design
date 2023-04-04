@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Header = (props) => {
-  const { children } = props;
   return (
     <SHeader>
       <SLink to="/">HOME</SLink>
